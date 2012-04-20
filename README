@@ -5,7 +5,7 @@ This is the application to see how you can enbed code from differents language i
 
 == Getting Started
 
-1.- git clone
+1.- git clone git@github.com:vicmaster/Escape-Code.git
 
 2.- bundle install
 
