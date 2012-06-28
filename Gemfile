@@ -18,7 +18,8 @@ group :assets do
 
 end
 
-group :test do
+group :development, :test do
+  gem 'rspec-rails'
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
 end
