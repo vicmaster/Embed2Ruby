@@ -1,0 +1,12 @@
+.code_result {
+	textarea {
+		width: 450px;
+		height: 230px;
+		resize: none;
+		background: $light_yellow;
+
+		&:first-child {
+			margin-right: $spacing_small + $spacing_tiny;
+		}
+	}
+}

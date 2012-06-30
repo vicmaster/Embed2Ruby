@@ -1,0 +1,26 @@
+header {
+	background: $header_dark;
+	height: $spacing_big;
+
+	.logo, .share { display: inline-block; }
+
+	.logo {
+		display: inline-block;
+		width: 190px;
+		height: 50px;
+		z-index: 999999;
+	}
+
+	.share {
+		float: right;
+
+		.twitter, .git {
+			display: inline-block;
+			line-height: $spacing_big;
+
+			img { vertical-align: middle; }
+		}
+
+		.git { margin-right: $spacing_small; }
+	}
+}

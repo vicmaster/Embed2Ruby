@@ -1,0 +1,38 @@
+.controls {
+	border-bottom: solid 1px $default;
+
+	&.content { margin-bottom: $spacing_default; }
+
+	header, h3, .controls, .span6 {
+		display: inline-block;
+		float: none;
+		background: none;
+	}
+
+	h3 {
+		color: $orange;
+		margin-bottom: $spacing_small;
+	 }
+
+	.span6 { margin-bottom: $spacing_tiny; }
+
+	.options {
+		float: none;
+
+		.translate {
+			display: inline-block;
+			position: relative;
+			bottom: 5px;
+			margin: 0 $spacing_tiny;
+			line-height: 30px;
+		}
+
+		.orange {
+			background: $a_orange;
+			color: $white;
+			padding: $spacing_tiny - 1 $spacing_small $spacing_tiny - 1;
+			vertical-align: top;
+			margin-left: $spacing_small;
+		}
+	}
+}

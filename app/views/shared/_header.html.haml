@@ -1,0 +1,14 @@
+%header
+	.row
+		.container
+			.span12
+				.span4
+					.logo
+						= link_to root_path do
+							= image_tag 'logo.png'
+				.span4.offset2
+					.share
+						.git
+							= link_to image_tag('git.png'), 'https://github.com/vicmaster/Embed2Ruby', target: '_blank'
+						.twitter
+							= link_to image_tag('twitter.png'), '#', target: '_blank'

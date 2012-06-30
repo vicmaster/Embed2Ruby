@@ -1,0 +1,10 @@
+%section
+	%header
+		%h3 Embed
+	.span6.offset5
+		.options
+			= select_tag 'code_from', options_for_select(['coffeescript', 'javascript']), class: 'span2'
+			= link_to '#', class: 'translate' do
+				= image_tag 'translate.png'
+			= select_tag 'to_ruby', options_for_select(['Ruby']), class: 'span2'
+			= button_tag 'Embed', class: 'btn orange'
