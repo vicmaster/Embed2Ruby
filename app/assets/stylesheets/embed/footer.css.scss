@@ -1,12 +1,14 @@
 footer {
-	background: $footer_dark;
-	height: $spacing_very_big + $spacing_small;
-
-	.footer-info {
-		p {
-			line-height: 40px;
-			margin: 5px 0;
-			color: $very_light_yellow;
-		}
-	}
+  background: $footer_dark;
+  height: $spacing_very_big + $spacing_small;
+  position: relative;
+  margin: 0 auto;
+  top: 24%;
+  .footer-info {
+    p {
+      line-height: 40px;
+      margin: 5px 0;
+      color: $very_light_yellow;
+    }
+  }
 }
