@@ -21,7 +21,10 @@ end
 
 group :development, :test do
   gem 'pg'
+  gem 'guard-rspec'
   gem 'rspec-rails'
+  gem 'capybara'
+  gem 'launchy'
   # Pretty printed test output
   gem 'turn', '0.8.2', :require => false
   gem 'cucumber'
