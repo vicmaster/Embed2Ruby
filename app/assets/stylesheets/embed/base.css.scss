@@ -27,28 +27,28 @@
 
 //typography
 
-	h1, h2, h3, h4, h5, h6 {
-	  font-family: 'Arial';
-	  margin-bottom: $spacing_default;
-	}
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arial';
+    margin-bottom: $spacing_default;
+  }
 
-	h1 { font-size: 20px}
-	h2 { font-size: 18px}
-	h3 { font-size: 16px}
-	h4 { font-size: 14px}
-	h5 { font-size: 12px}
+  h1 { font-size: 20px}
+  h2 { font-size: 18px}
+  h3 { font-size: 16px}
+  h4 { font-size: 14px}
+  h5 { font-size: 12px}
 
-	.body_0 { font-size: 28px;}
-	.body_1 { font-size: 24px;}
-	.body_2 { font-size: 18px;}
-	.body_3 { font-size: 16px;}
-	.body_4 { font-size: 14px;}
-	.body_5 { font-size: 12px;}
+  .body_0 { font-size: 28px;}
+  .body_1 { font-size: 24px;}
+  .body_2 { font-size: 18px;}
+  .body_3 { font-size: 16px;}
+  .body_4 { font-size: 14px;}
+  .body_5 { font-size: 12px;}
 
-	p {
-	  margin-bottom: $spacing_default;
-	  @extend .body_4;
-	}
+  p {
+    margin-bottom: $spacing_default;
+    @extend .body_4;
+  }
 
 //links
   a {
@@ -67,23 +67,30 @@
   }
 
 .embed2ruby {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background: url(bkg.png);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(bkg.png);
+  .container{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+    #wrapper {
+    
+      display: block;
+      padding-top: 90px;
+      width: 940px;
+    }
+  }
+  .content {
+    display: block;
+    margin-bottom: 50px;
+  }
+  .push {
+    height: 50px;
+  }
 
-	#wrapper {
-		display: block;
-		padding-top: 40px;
-		width: 940px;
-		margin: 0 auto;
-	}
-
-	.content {
-		display: block;
-		margin-bottom: 30px;
-	}
-
-	p { margin: 0 0 20px 0; }
+  p { margin: 0 0 20px 0; }
 }

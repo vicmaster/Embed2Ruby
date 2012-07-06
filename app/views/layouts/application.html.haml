@@ -1,13 +1,14 @@
 !!!
 %html
-	%head
-		%title Embed2Ruby
-		= stylesheet_link_tag    "application"
-		= javascript_include_tag "application"
-		= csrf_meta_tags
-	%body.embed2ruby
-		= render 'shared/header'
-		.container
-			#wrapper
-				= yield
-		= render 'shared/footer'
+  %head
+    %title Embed2Ruby
+    = stylesheet_link_tag    "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body.embed2ruby
+    = render 'shared/header'
+    .container
+      #wrapper
+        = yield
+      .push
+    = render 'shared/footer'
