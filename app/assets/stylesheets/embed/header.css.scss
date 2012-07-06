@@ -11,16 +11,21 @@ header {
 		z-index: 999999;
 	}
 
-	.share {
+	.offset6 {
 		float: right;
+		margin: 0 5px 0 400px;
 
-		.twitter, .git {
-			display: inline-block;
-			line-height: $spacing_big;
+		.share {
+			float: right;
 
-			img { vertical-align: middle; }
+			.twitter, .git {
+				display: inline-block;
+				line-height: $spacing_big;
+
+				img { vertical-align: middle; }
+			}
+
+			.git { margin-right: $spacing_small; }
 		}
-
-		.git { margin-right: $spacing_small; }
 	}
 }
