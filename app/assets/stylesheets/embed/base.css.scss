@@ -28,8 +28,8 @@
 //typography
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Arial';
     margin-bottom: $spacing_default;
+    font-family: 'Dosis', sans-serif;
   }
 
   h1 { font-size: 20px}
@@ -64,6 +64,7 @@
   p a, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     font-size: inherit;
     font-weight: inherit;
+    font-family: 'Dosis', sans-serif;
   }
 
 .embed2ruby {
@@ -73,18 +74,29 @@
   padding: 0;
   background: url(bkg.png);
   .container{
+    font-family: 'Dosis', sans-serif;
     min-height: 100%;
     height: auto !important;
     height: 100%;
     margin: 0 auto -50px;
     #wrapper {
-    
       display: block;
       padding-top: 90px;
       width: 940px;
     }
   }
   .content {
+    .title {
+      font-size: 50px;
+      margin-bottom: 50px;
+      color: #777;
+      .highlight { color: #cc4438; }
+    }
+    .subtitle { 
+      font-size: 26px; 
+      color: #676759;
+    }
+    font-family: 'Dosis', sans-serif;
     display: block;
     margin-bottom: 50px;
   }
