@@ -14,7 +14,10 @@ server: &server
   password: postgres
 
 development:
-  <<: *server
+  adapter: sqlite3
+  encoding: unicode
+  reconnect: false
+  pool: 5
   database: embedruby
 
 test: &test

@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails'
 
 gem 'rails-backbone'
 
@@ -20,7 +20,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'pg'
+  gem 'sqlite3-ruby'
   gem 'guard-rspec'
   gem 'rspec-rails'
   gem 'capybara'
