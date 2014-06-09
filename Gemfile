@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails'
+gem 'rails', '~> 3.1.12'
 
 gem 'rails-backbone'
 
@@ -22,7 +22,7 @@ end
 group :development, :test do
   gem 'sqlite3-ruby'
   gem 'guard-rspec'
-  gem 'rspec-rails'
+ gem 'rspec-rails', '~> 2.14.2'
   gem 'capybara'
   gem 'launchy'
   # Pretty printed test output
